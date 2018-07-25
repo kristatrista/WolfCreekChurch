@@ -41,8 +41,12 @@ hr.light {
   text-align: center;
 }
 
-
-
+div.videoContainer{
+  margin-left: 40px;
+}
+#videoContainer{
+  justify-content: center;
+}
 
 /*---Media Queries --*/
 @media (min-width: 993px) {
@@ -66,6 +70,9 @@ html, body {
   .display-2{
     font-size: 40px;
   }
+  div.videoContainer{
+    margin-left: 0px;
+  }
   }
 @media (max-width: 768px) {
   .carousel-caption {
@@ -76,6 +83,9 @@ html, body {
 }
 .display-2{
   font-size: 30px;
+}
+div.videoContainer{
+  margin-left: 30px;
 }
 }
 @media (max-width: 576px) {
@@ -141,7 +151,9 @@ figure {
 h4{
   text-align: center;
 }
-
+a.eventLink{
+  color: black;
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
