@@ -147,7 +147,9 @@ figure {
 }
 
 
-
+h1.center{
+  text-align: center;
+}
 h4{
   text-align: center;
 }
