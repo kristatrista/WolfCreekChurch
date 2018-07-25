@@ -42,12 +42,16 @@ hr.light {
 }
 
 div.videoContainer{
-  margin-left: 40px;
+
 }
 #videoContainer{
-  justify-content: center;
+  text-align: center;
 }
-
+iframe{
+  display: flex-row;
+  width: 350;
+  height:197;
+}
 /*---Media Queries --*/
 @media (min-width: 993px) {
 html, body {
