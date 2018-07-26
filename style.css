@@ -102,7 +102,9 @@ div.videoContainer{
 font-size: 100%;
 }
 }
-
+#about{
+  text-align: center;
+}
 
 /*---Firefox Bug Fix --*/
 .carousel-item {
