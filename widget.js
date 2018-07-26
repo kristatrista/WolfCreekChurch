@@ -4,10 +4,10 @@
 
 hcb_user = {
     /* L10N */
-    comments_header : 'Questions to the pastor',
+    comments_header : 'Questions to the Pastor',
     name_label : 'Name',
-    content_label: 'Enter your comment here',
-    submit : 'Comment',
+    content_label: 'Enter your comment or question here',
+    submit : 'Submit',
     logout_link : '<img title="log out" src="//www.htmlcommentbox.com/static/images/door_out.png" alt="[logout]" class="hcb-icon"/>',
     admin_link : '<img src="//www.htmlcommentbox.com/static/images/door_in.png" alt="[login]" class="hcb-icon"/>',
     no_comments_msg: 'No one has commented yet. Be the first!',
