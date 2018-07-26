@@ -4,7 +4,7 @@
 
 hcb_user = {
     /* L10N */
-    comments_header : 'Comments',
+    comments_header : 'Questions to the pastor',
     name_label : 'Name',
     content_label: 'Enter your comment here',
     submit : 'Comment',
@@ -54,10 +54,10 @@ hcb_user = {
 };
 
  if(!window.hcb_user){
-   hcb_user={comments_header:'Guestbook'};
+   hcb_user={comments_header:'Questions to the Pastor'};
  } (function(){
    var s=document.createElement("script"),
    l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";
    s.setAttribute("type","text/javascript");
-   s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24%2Fr6ay7Hxoi2hz.AxeotCS1"+"&opts=16862&num=10&ts=1532583350766");if (typeof s!="undefined") 
+   s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24%2Fr6ay7Hxoi2hz.AxeotCS1"+"&opts=16862&num=10&ts=1532583350766");if (typeof s!="undefined")
  document.getElementsByTagName("head")[0].appendChild(s);})();
