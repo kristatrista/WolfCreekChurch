@@ -4,7 +4,7 @@ html,body{
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  color: #222;
+  color: #4f6367;
 }
 a, a:hover, a:active, a:visited {
   color: #d5d5d5; }
@@ -30,7 +30,7 @@ a, a:hover, a:active, a:visited {
   max-width: 100%;
 }
 footer {
-  background-color: #3f3f3f;
+  background-color: #4f6367;
   color: #d5d5d5;
 }
 hr.light {
@@ -158,6 +158,8 @@ h4{
 a.eventLink{
   color: black;
 }
+
+
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
