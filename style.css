@@ -4,7 +4,9 @@ html,body{
   height: 100%;
   width: 100%;
   font-family: 'Poppins', sans-serif;
-  color: #4f6367;
+  color: #126b79;
+text-shadow: 0px 1px 20px rgba(116 ,116,116,0.58);
+
 }
 a, a:hover, a:active, a:visited {
   color: #d5d5d5; }
@@ -46,6 +48,23 @@ div.videoContainer{
 }
 #videoContainer{
   text-align: center;
+}
+
+.carousel-item{
+    position: relative;
+    display: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: ;
+    transition: ;
+    transition: ;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+
 }
 
 /*---Media Queries --*/
@@ -107,13 +126,13 @@ font-size: 100%;
 }
 
 /*---Firefox Bug Fix --*/
-.carousel-item {
+/*.carousel-item {
   transition: -webkit-transform 0.5s ease;
   transition: transform 0.5s ease;
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-}
+  -webkit-backface-visibility: ;
+  backface-visibility: ;
+}*/
 /*--- Fixed Background Image --*/
 figure {
   position: relative;
@@ -157,6 +176,29 @@ h4{
 }
 a.eventLink{
   color: black;
+}
+.card{
+
+    box-shadow: 0px 1px 20px rgba(119,119,119,0.58);
+}
+.card-img-top{
+  -webkit-filter: brightness(100%) contrast(85%) saturate(75%) sepia(2%);
+  filter: brightness(100%) contrast(85%) saturate(75%) sepia(2%);
+
+
+}
+div.third-slide{
+  -webkit-filter: brightness(110%) contrast(85%) saturate(75%) sepia(2%);
+  filter: brightness(110%) contrast(85%) saturate(75%) sepia(2%);
+
+}
+.second-slide{
+  -webkit-filter: brightness(110%) contrast(85%) saturate(75%) sepia(2%);
+  filter: brightness(110%) contrast(85%) saturate(75%) sepia(2%);
+}
+.first-slide{
+  -webkit-filter: brightness(110%) contrast(85%) saturate(75%) sepia(2%);
+filter: brightness(110%) contrast(85%) saturate(75%) sepia(2%);
 }
 
 
