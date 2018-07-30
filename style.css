@@ -20,13 +20,18 @@ a, a:hover, a:active, a:visited {
   font-size: 1.1em !important;
 }
 .carousel-inner {
-  height: 100%;
-  width: 100%;
+  -webkit-filter: brightness(110%) contrast(85%) saturate(75%) sepia(2%);
+  filter: brightness(110%) contrast(85%) saturate(75%) sepia(2%);
+  background-image: url(img/church2.png);
+  height:450px;
+  background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
 }
 .carousel-caption {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(60%);
 }
 .heroImages {
   max-width: 100%;
@@ -82,6 +87,7 @@ html, body {
 @media (max-width: 992px) {
   .carousel-caption {
     top: 50%;
+    transform: translateY(90%);
   }
   .carousel-caption h3{
     font-size: 100%;
@@ -92,17 +98,24 @@ html, body {
   div.videoContainer{
     margin-left: 0px;
   }
+  .carousel-inner{
+    background-position: right;
+    height: 300px;
+  }
   }
 @media (max-width: 768px) {
   .carousel-caption {
     top: 56%;
+    transform: translateY(60%);
   }
 .carousel-caption h3{
   font-size: 100%;
+  transform: translateY(90%);
 }
 .display-2{
   font-size: 30px;
 }
+.
 div.videoContainer{
   margin-left: 30px;
 }
@@ -119,6 +132,9 @@ div.videoContainer{
 }
 .carousel-caption h3{
 font-size: 100%;
+}
+div.carousel-inner{
+    height: 200px;
 }
 }
 #about{
